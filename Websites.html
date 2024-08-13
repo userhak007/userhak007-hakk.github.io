@@ -1,0 +1,219 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Awareness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.topics-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.topic {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: calc(50% - 20px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+    </style>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Cybersecurity Awareness</h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#topics">Key Topics</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction Section -->
+        <section id="intro">
+            <div class="container">
+                <h2>Welcome to Cybersecurity Awareness</h2>
+                <p>Cybersecurity is crucial in today’s digital world. This website aims to provide valuable information on how to protect yourself and your data from cyber threats.</p>
+            </div>
+        </section>
+
+        <!-- Key Topics Section -->
+        <section id="topics">
+            <div class="container">
+                <h2>Key Cybersecurity Topics</h2>
+                <div class="topics-list">
+                    <div class="topic">
+                        <h3>Phishing</h3>
+                        <p>Learn about phishing attacks and how to avoid them.</p>
+                    </div>
+                    <div class="topic">
+                        <h3>Malware</h3>
+                        <p>Understand different types of malware and how to protect your system.</p>
+                    </div>
+                    <div class="topic">
+                        <h3>Passwords</h3>
+                        <p>Best practices for creating and managing secure passwords.</p>
+                    </div>
+                    <div class="topic">
+                        <h3>Two-Factor Authentication</h3>
+                        <p>Enhance your security with two-factor authentication.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources">
+            <div class="container">
+                <h2>Helpful Resources</h2>
+                <ul>
+                    <li><a href="https://www.cisa.gov/cybersecurity" target="_blank">Cybersecurity & Infrastructure Security Agency (CISA)</a></li>
+                    <li><a href="https://www.us-cert.cisa.gov/" target="_blank">US-CERT</a></li>
+                    <li><a href="https://www.eff.org/issues/security" target="_blank">Electronic Frontier Foundation (EFF) - Security</a></li>
+                    <li><a href="https://www.nist.gov/cyberframework" target="_blank">NIST Cybersecurity Framework</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Cybersecurity Awareness. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
